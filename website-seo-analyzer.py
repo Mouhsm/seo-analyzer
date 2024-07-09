@@ -11,8 +11,6 @@ st.write('Enter a URL below to generate an SEO report.')
 
 # Input field for URL
 url = st.text_input('Enter URL:')
-if not url.startswith('http'):
-    st.warning('Please enter a valid URL starting with http:// or https://')
 
 # Function to fetch SEO report
 def get_seo_report(url):
