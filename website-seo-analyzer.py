@@ -9,7 +9,7 @@ from urllib.parse import urlparse
 import time
 
 nltk.download('stopwords')
-nltk.download('punkt')
+nltk.download('punkt_tab')
 
 st.title('SEO Analyzer')
 st.write('Get a comprehensive SEO analysis to optimize your website’s visibility')
